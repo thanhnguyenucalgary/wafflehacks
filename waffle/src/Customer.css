@@ -1,0 +1,112 @@
+.Customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #e99494;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    border-bottom: 1px solid #e7e7e9;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+.top, button{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 350px;
+    width: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    padding-top:20px ;
+    padding-bottom:250px ;
+    padding-left:30px;
+    border-bottom: 1px solid #e7e7e9;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+
+.checkout, button{
+    padding-top: 40px;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+  background-color: #B4EBCA;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #D3FAC7;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: #B4EBCA;
+}
